@@ -4,7 +4,7 @@ def main():
             if j == 9:
                 print(i * j)
             else:
-                print(f"{i*j} ", end="")
+                print(f"{i * j} ", end="")
 
 
 if __name__ == '__main__':
