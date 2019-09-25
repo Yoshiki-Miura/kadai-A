@@ -27,7 +27,15 @@ def main():
     fukuoka_temperature /= 2
 
     print(temperature)
-    print(oosaka_station)
+
+    for i in range(len(oosaka_station)):
+        if i == 0:
+            print("\'" + oosaka_station[i] + ",", end="")
+        elif i == len(oosaka_station) - 1:
+            print(oosaka_station[i] + "\'")
+        else:
+            print(oosaka_station[i] + ",", end="")
+
     print(fukuoka_temperature)
 
 
